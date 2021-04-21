@@ -1,0 +1,96 @@
+body{
+    font-family: 'Lora', serif;
+}
+h5{
+    float: right;
+    text-align: right;
+    padding:0 20px 15px 20px;
+    margin-bottom: 30px;
+}
+
+section{
+    clear: left;
+}
+
+div{
+    margin-bottom: 100px;
+}
+
+h1{
+    font-size: 40px;
+}
+.halved{
+    width: 40%;
+    padding-left: 2%;
+    margin-left: 5%;
+    float: left;
+    
+}
+.halved img{
+    width: 100%;
+}
+.tripled img{
+    width: 100%;
+}
+.highlight{
+    color: tomato;
+}
+.butt{
+    background: coral;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.tripled{
+    background-color: white;
+    
+    border-radius: 10px;
+    width: 25%;
+    padding-left: 2%;
+    margin-left: 5%;
+    float: left;
+    box-shadow: 10px 10px 20px gray;
+    height: 80%;
+    margin-bottom: 50px;
+
+}
+.project{
+    padding: 50px 0;
+    background-color: rgba(211, 211, 211, 0.267);
+    height: 500px;
+}
+
+
+.inquire{
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    padding: 100px 50px;
+    display: block;
+    background-image: url("images/back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    width: 50%;  
+}
+.pos1{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+}
+.pos2{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+}
+
+footer p{
+    clear: left;
+    text-align: center;
+}

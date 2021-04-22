@@ -1,16 +1,24 @@
 body{
     font-family: 'Lora', serif;
 }
+header{
+    position: fixed;
+    right: 0;
+    height: 400px;
+}
 h5:hover{
-    background-color: azure;
+    background-color: lightsalmon;
     color: blue;
     border: 5px 8px;
+
 }
 h5{
+    font-size: larger;
     float: right;
     text-align: right;
     padding:0 20px 15px 20px;
     margin-bottom: 30px;
+    border-radius: 5px;
 }
 
 section{
@@ -18,7 +26,7 @@ section{
 }
 
 div{
-    margin-bottom: 100px;
+    margin: 80px 0;
 }
 
 h1{

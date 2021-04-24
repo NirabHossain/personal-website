@@ -15,7 +15,7 @@ h5:hover{
 h5{
     font-size: larger;
     float: right;
-    text-align: right;
+    /* text-align: right; */
     padding:0 20px 15px 20px;
     margin-bottom: 30px;
     border-radius: 5px;
@@ -106,4 +106,19 @@ h1{
 footer p{
     clear: left;
     text-align: center;
+}
+@media (max-width: 700px){
+    h5{
+        clear: both;
+        padding: 0;
+        margin: 0;
+    }
+    .tripled,.halved{
+        clear: left;        
+        width: 70%;
+    }
+    .inquire div h2{
+        font-size: small;
+
+    }
 }
